@@ -3,9 +3,9 @@ import Count from "./Count";
 import ResetButton from "./ResetButton";
 import CountButtons from "./CountButtons";
 
-function Card() {
+export default function Card() {
   return (
-    <div>
+    <div className="card">
       <Title />
       <Count />
       <ResetButton />
@@ -13,5 +13,3 @@ function Card() {
     </div>
   )
 }
-
-export default Card
